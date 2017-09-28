@@ -13,7 +13,8 @@ public class Book {
     public Book() {
     }
 
-    public Book(String isbn, String title, String author, boolean checkedOut, String genre, boolean hardCover, int numberOfPages) {
+    public Book(String isbn, String title, String author, boolean checkedOut,
+                String genre, boolean hardCover, int numberOfPages) {
         this.isbn = isbn;
         this.title = title;
         this.author = author;
